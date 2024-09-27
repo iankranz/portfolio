@@ -131,7 +131,7 @@ useHead({
       </p>
       <p>I was a Teaching Assistant for ECE 3140: Embedded Systems</p>
     </div>
-    <div style="display: flex; gap: 2rem; margin-bottom: 3rem">
+    <div style="display: flex; gap: 1rem; margin-bottom: 3rem">
       <a href="https://www.linkedin.com/in/iankranz/">
         <div
           style="
