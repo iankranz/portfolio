@@ -9,6 +9,15 @@ useHead({
     }
   ]
 })
+
+useSeoMeta({
+  title: "Ian Kranz | Software Engineering Portfolio",
+  ogTitle: "Ian Kranz | Software Engineering Portfolio",
+  description:
+    "Learn more about NYC-based software engineer Ian Kranz on this portfolio site. This site includes information about Ian's professional experience and domain of software engineering knowledge.",
+  ogDescription:
+    "Learn more about NYC-based software engineer Ian Kranz on this portfolio site. This site includes information about Ian's professional experience and domain of software engineering knowledge."
+})
 </script>
 
 <template>

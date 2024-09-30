@@ -5,9 +5,18 @@ useHead({
     {
       name: "description",
       content:
-        "Learn more about NYC-based software engineer Ian Kranz on this portfolio site. This site includes information about Ian's professional experience and domain of software engineering knowledge."
+        "Ian Kranz is a software engineer based in Brooklyn, NY. He graduated from Cornell University with a Bachelor's of Science in Electrical and Computer Engineering"
     }
   ]
+})
+
+useSeoMeta({
+  title: "Ian Kranz | About",
+  ogTitle: "Ian Kranz | About",
+  description:
+    "Ian Kranz is a software engineer based in Brooklyn, NY. He graduated from Cornell University with a Bachelor's of Science in Electrical and Computer Engineering",
+  ogDescription:
+    "Ian Kranz is a software engineer based in Brooklyn, NY. He graduated from Cornell University with a Bachelor's of Science in Electrical and Computer Engineering"
 })
 </script>
 
