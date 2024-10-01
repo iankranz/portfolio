@@ -17,7 +17,7 @@ const yearsSplit = computed(() => {
   const since = interval(twoYears, now.value)
   const duration = intervalToDuration(since)
   return `${2 + (duration.years ?? 0)}yr ${duration.months ?? 0}mo ${
-    duration.days
+    duration.days ?? 0
   }d ${duration.hours ?? 0}hr ${duration.minutes ?? 0}min ${
     duration.seconds ?? 0
   }sec`
