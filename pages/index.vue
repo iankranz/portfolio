@@ -18,6 +18,15 @@ useSeoMeta({
   ogDescription:
     "Learn more about NYC-based software engineer Ian Kranz on this portfolio site. This site includes information about Ian's professional experience and domain of software engineering knowledge."
 })
+
+onMounted(() => {
+  const body = JSON.stringify({ event: "page-load::home" })
+  fetch("https://command-production.up.railway.app/stats/event", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body
+  })
+})
 </script>
 
 <template>
