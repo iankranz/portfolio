@@ -113,8 +113,8 @@ onMounted(() => {
         <h2>Software Engineer @ Spatial Front Inc.</h2>
         <h3>March 2024 - July 2024</h3>
         <p>
-          I was part of a contracted development team building new full-stack
-          applications for the USDOT.
+          I was part of a development team building new full-stack applications
+          for the USDOT.
         </p>
         <p>
           In this role I worked with TypeScript, Angular, Node.js, AWS, and
@@ -133,7 +133,7 @@ onMounted(() => {
           Node.js
         </p>
         <p>
-          I was layed off from this role as a result of a major reduction in
+          I was laid off from this role as a result of a major reduction in
           force.
         </p>
       </div>
